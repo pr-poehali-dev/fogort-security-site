@@ -94,8 +94,8 @@ const Index = () => {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 relative">
-                <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-10 w-10 object-contain" />
+              <div className="h-12 w-12 relative">
+                <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-12 w-12 object-contain" />
               </div>
               <span className="text-2xl font-bold text-secondary">ФОГОРТ</span>
             </div>
@@ -442,8 +442,8 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="h-10 w-10 relative">
-                  <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-10 w-10 object-contain" />
+                <div className="h-12 w-12 relative">
+                  <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-12 w-12 object-contain" />
                 </div>
                 <span className="text-xl font-bold">ФОГОРТ</span>
               </div>
