@@ -18,73 +18,73 @@ const Index = () => {
 
   const services = [
     {
-      icon: 'Shield',
-      title: 'Информационная безопасность',
-      description: 'Комплексная защита корпоративных данных и инфраструктуры от внешних и внутренних угроз'
+      icon: 'ShieldCheck',
+      title: 'Физическая охрана объектов',
+      description: 'Круглосуточная охрана бизнес-центров, складов, торговых комплексов и жилых зданий'
     },
     {
-      icon: 'Code2',
-      title: 'Разработка ПО',
-      description: 'Создание масштабируемых и надежных программных решений для автоматизации бизнес-процессов'
+      icon: 'Video',
+      title: 'Видеонаблюдение и мониторинг',
+      description: 'Установка и обслуживание систем видеонаблюдения с круглосуточным контролем'
     },
     {
-      icon: 'Cloud',
-      title: 'Облачные решения',
-      description: 'Миграция и управление облачной инфраструктурой с гарантией безопасности и доступности'
+      icon: 'Lock',
+      title: 'Контроль доступа',
+      description: 'Современные системы СКУД для безопасного управления доступом на территорию'
     },
     {
-      icon: 'Database',
-      title: 'Работа с данными',
-      description: 'Проектирование, внедрение и поддержка баз данных любой сложности и масштаба'
+      icon: 'AlertTriangle',
+      title: 'Охранная сигнализация',
+      description: 'Установка и мониторинг охранных и пожарных систем сигнализации'
     },
     {
-      icon: 'Network',
-      title: 'Сетевая инфраструктура',
-      description: 'Построение и администрирование корпоративных сетей с высоким уровнем отказоустойчивости'
+      icon: 'Users',
+      title: 'Личная охрана',
+      description: 'Профессиональная защита VIP-персон и сопровождение ценных грузов'
     },
     {
-      icon: 'Headphones',
-      title: 'Техническая поддержка',
-      description: 'Круглосуточное сопровождение IT-систем с гарантированным временем реакции'
+      icon: 'Building',
+      title: 'Безопасность мероприятий',
+      description: 'Организация охраны корпоративных и массовых мероприятий любого масштаба'
     }
   ];
 
   const portfolioItems = [
     {
-      title: 'Банковская система безопасности',
-      category: 'Информационная безопасность',
-      description: 'Разработка системы многофакторной аутентификации для крупнейшего банка страны'
+      title: 'Бизнес-центр «Северная столица»',
+      category: 'Охрана объектов',
+      description: 'Комплексная система безопасности для бизнес-центра класса А на 2500 сотрудников'
     },
     {
-      title: 'ERP-система для производства',
-      category: 'Разработка ПО',
-      description: 'Внедрение комплексной системы управления производственными процессами'
+      title: 'Логистический комплекс «Транзит»',
+      category: 'Видеонаблюдение и СКУД',
+      description: 'Установка 150 камер видеонаблюдения и системы контроля доступа на складском комплексе 50 000 м²'
     },
     {
-      title: 'Облачная платформа для ритейла',
-      category: 'Облачные решения',
-      description: 'Миграция розничной сети в облако с сохранением непрерывности бизнеса'
+      title: 'ТРЦ «Галерея»',
+      category: 'Физическая охрана',
+      description: 'Организация охраны торгового центра с посещаемостью 30 000 человек в день'
     }
   ];
 
   const vacancies = [
     {
-      title: 'Senior Backend Developer',
-      department: 'Разработка',
-      type: 'Полная занятость',
-      location: 'Москва / Удаленно'
+      title: 'Охранник 4-6 разряда',
+      department: 'Охрана',
+      type: 'Посменная работа',
+      location: 'Москва'
     },
     {
-      title: 'Специалист по информационной безопасности',
-      department: 'Безопасность',
+      title: 'Старший смены',
+      department: 'Охрана',
       type: 'Полная занятость',
       location: 'Москва'
     },
     {
-      title: 'DevOps Engineer',
-      department: 'Инфраструктура',
+      title: 'Инженер систем безопасности',
+      department: 'Технический отдел',
       type: 'Полная занятость',
-      location: 'Удаленно'
+      location: 'Москва / Московская область'
     }
   ];
 
@@ -97,7 +97,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <Icon name="Shield" className="text-white" size={24} />
               </div>
-              <span className="text-2xl font-bold text-secondary">TechSecure</span>
+              <span className="text-2xl font-bold text-secondary">СТРАЖ</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors font-medium">
@@ -130,10 +130,10 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold text-secondary mb-6 leading-tight">
-              Надежные IT-решения<br />для вашего бизнеса
+              Профессиональная охрана<br />и безопасность
             </h1>
             <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Обеспечиваем безопасность, разрабатываем программное обеспечение и управляем инфраструктурой для крупнейших компаний России
+              Надежная защита объектов, людей и имущества. Лицензия, опытные сотрудники, современное оборудование
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" onClick={() => scrollToSection('services')} className="text-lg px-8">
@@ -176,24 +176,24 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6">О компании</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              TechSecure — ведущий поставщик комплексных IT-решений для крупного и среднего бизнеса
+              ЧОП «СТРАЖ» — надежный партнер в сфере охранных услуг с 2008 года
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-foreground leading-relaxed">
-                С 2008 года мы помогаем компаниям достигать их бизнес-целей через надежные технологические решения. 
-                Наша команда состоит из высококвалифицированных специалистов с международными сертификациями.
+                С 2008 года мы обеспечиваем безопасность бизнеса, государственных учреждений и частных лиц. 
+                В нашей команде работают более 350 аттестованных охранников с профильным образованием и опытом работы в силовых структурах.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
-                Мы специализируемся на обеспечении информационной безопасности, разработке корпоративного ПО, 
-                построении облачной инфраструктуры и комплексной технической поддержке.
+                Мы специализируемся на физической охране объектов, установке систем видеонаблюдения и контроля доступа, 
+                а также предоставляем услуги личной охраны и сопровождения грузов.
               </p>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2">
                   <Icon name="CheckCircle2" className="text-primary" size={24} />
-                  <span className="font-medium">ISO 27001</span>
+                  <span className="font-medium">Лицензия МВД</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="CheckCircle2" className="text-primary" size={24} />
@@ -201,7 +201,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="CheckCircle2" className="text-primary" size={24} />
-                  <span className="font-medium">ГОСТ Р</span>
+                  <span className="font-medium">Страхование ответственности</span>
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6">Услуги</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Полный спектр IT-услуг для обеспечения надежности и безопасности вашего бизнеса
+              Полный комплекс охранных услуг для защиты вашего бизнеса и личной безопасности
             </p>
           </div>
 
@@ -384,7 +384,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium text-secondary mb-1">Email</p>
-                      <p className="text-muted-foreground">info@techsecure.ru</p>
+                      <p className="text-muted-foreground">info@strazh-security.ru</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -393,7 +393,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium text-secondary mb-1">Адрес</p>
-                      <p className="text-muted-foreground">Москва, ул. Тверская, д. 1, офис 100</p>
+                      <p className="text-muted-foreground">Москва, ул. Большая Семёновская, д. 40</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -445,10 +445,10 @@ const Index = () => {
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                   <Icon name="Shield" className="text-white" size={24} />
                 </div>
-                <span className="text-xl font-bold">TechSecure</span>
+                <span className="text-xl font-bold">СТРАЖ</span>
               </div>
               <p className="text-white/80 text-sm">
-                Надежные IT-решения для вашего бизнеса с 2008 года
+                Профессиональная охрана и безопасность с 2008 года
               </p>
             </div>
             <div>
@@ -463,23 +463,23 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Услуги</h4>
               <ul className="space-y-2 text-sm text-white/80">
-                <li className="hover:text-white transition-colors cursor-pointer">Информационная безопасность</li>
-                <li className="hover:text-white transition-colors cursor-pointer">Разработка ПО</li>
-                <li className="hover:text-white transition-colors cursor-pointer">Облачные решения</li>
-                <li className="hover:text-white transition-colors cursor-pointer">Техподдержка</li>
+                <li className="hover:text-white transition-colors cursor-pointer">Физическая охрана</li>
+                <li className="hover:text-white transition-colors cursor-pointer">Видеонаблюдение</li>
+                <li className="hover:text-white transition-colors cursor-pointer">Контроль доступа</li>
+                <li className="hover:text-white transition-colors cursor-pointer">Личная охрана</li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-white/80">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@techsecure.ru</li>
-                <li>Москва, ул. Тверская, д. 1</li>
+                <li>info@strazh-security.ru</li>
+                <li>Москва, ул. Б. Семёновская, 40</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/80">
-            <p>© 2024 TechSecure. Все права защищены.</p>
+            <p>© 2024 ЧОП «СТРАЖ». Все права защищены.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
               <a href="#" className="hover:text-white transition-colors">Условия использования</a>
