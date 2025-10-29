@@ -473,7 +473,7 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-white/80">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@strazh-security.ru</li>
+                <li>info@fogort.ru</li>
                 <li>Москва, ул. Б. Семёновская, 40</li>
               </ul>
             </div>
