@@ -97,7 +97,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <Icon name="Shield" className="text-white" size={24} />
               </div>
-              <span className="text-2xl font-bold text-secondary">СТРАЖ</span>
+              <span className="text-2xl font-bold text-secondary">ФОГОРТ</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors font-medium">
@@ -176,7 +176,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6">О компании</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              ЧОП «СТРАЖ» — надежный партнер в сфере охранных услуг с 2008 года
+              ЧОП «ФОГОРТ» — надежный партнер в сфере охранных услуг с 2008 года
             </p>
           </div>
 
@@ -445,7 +445,7 @@ const Index = () => {
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                   <Icon name="Shield" className="text-white" size={24} />
                 </div>
-                <span className="text-xl font-bold">СТРАЖ</span>
+                <span className="text-xl font-bold">ФОГОРТ</span>
               </div>
               <p className="text-white/80 text-sm">
                 Профессиональная охрана и безопасность с 2008 года
@@ -479,7 +479,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/80">
-            <p>© 2024 ЧОП «СТРАЖ». Все права защищены.</p>
+            <p>© 2024 ЧОП «ФОГОРТ». Все права защищены.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
               <a href="#" className="hover:text-white transition-colors">Условия использования</a>
