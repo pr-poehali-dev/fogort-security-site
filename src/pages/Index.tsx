@@ -93,7 +93,7 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('home')}>
+            <div className="flex items-center gap-3 cursor-pointer animate-in fade-in slide-in-from-left-5 duration-700" onClick={() => scrollToSection('home')}>
               <div className="h-12 w-12 relative transition-transform duration-300 hover:scale-110">
                 <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-12 w-12 object-contain" />
               </div>
