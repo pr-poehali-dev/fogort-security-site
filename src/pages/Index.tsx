@@ -93,11 +93,11 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="h-12 w-12 relative">
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('home')}>
+              <div className="h-12 w-12 relative transition-transform duration-300 hover:scale-110">
                 <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-12 w-12 object-contain" />
               </div>
-              <span className="text-2xl font-bold text-secondary">ФОГОРТ</span>
+              <span className="text-2xl font-bold text-secondary transition-colors duration-300 hover:text-primary">ФОГОРТ</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors font-medium">
@@ -441,11 +441,11 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="h-12 w-12 relative">
+              <div className="flex items-center gap-3 mb-4 cursor-pointer group">
+                <div className="h-12 w-12 relative transition-transform duration-300 group-hover:scale-110">
                   <img src="https://cdn.poehali.dev/files/e70ddd52-420e-4791-abd4-7b3b9fb2fcfa.png" alt="ФОГОРТ" className="h-12 w-12 object-contain" />
                 </div>
-                <span className="text-xl font-bold">ФОГОРТ</span>
+                <span className="text-xl font-bold transition-opacity duration-300 group-hover:opacity-80">ФОГОРТ</span>
               </div>
               <p className="text-white/80 text-sm">
                 Профессиональная охрана и безопасность с 2008 года
